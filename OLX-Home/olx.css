@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar- two*/
+/* input search */
+.nav2 input {
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* dropdown */
+.drop ul {
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* button  */
+.drop button {
+    padding: 15px;
+    border-radius: 30%;
+}
+
+/* ------x--------x-------x------- */
+
+/* heading and round image  */
+.con {
+   gap: 55px;
+}
+
+.one  img {
+    height: 100px;
+}
+
+/* cards  */
+
+.card {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .d-flex {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+}
+
